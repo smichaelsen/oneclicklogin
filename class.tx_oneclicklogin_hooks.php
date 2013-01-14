@@ -49,7 +49,7 @@ class tx_oneclicklogin_hooks {
 			'', 'username ASC');
 		while ($beUser = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res)) {
 			$name = htmlspecialchars($beUser['realName'] ? $beUser['realName'] : $beUser['username']);
-			$tx_oneclicklogin_users[] = '<a href="#" onclick="TYPO3BackendLogin.switchToOpenId();$(\'t3-username\').value=\'' . t3lib_div::quoteJSvalue($beUser['tx_openid_openid']) . '\';$(\'t3-login-form-outer\').parentNode.submit();TYPO3BackendLogin.showLoginProcess();return false;">' . $name . '</a>';
+			$tx_oneclicklogin_users[] = '<a href="#" onclick="TYPO3BackendLogin.switchToOpenId();$(\'t3-username\').value=' . t3lib_div::quoteJSvalue($beUser['tx_openid_openid']) . ';$(\'t3-login-form-outer\').parentNode.submit();TYPO3BackendLogin.showLoginProcess();return false;">' . $name . '</a>';
 		}
 
 		if (count($tx_oneclicklogin_users)) {
