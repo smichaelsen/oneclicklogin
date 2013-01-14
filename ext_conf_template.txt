@@ -1,0 +1,8 @@
+# cat=basic; type=boolean; label=LLL:EXT:oneclicklogin/locallang_db.xml:ext_conf.use_devIPmask
+use_devIPmask = 0
+
+# cat=basic; type=string; label=LLL:EXT:oneclicklogin/locallang_db.xml:ext_conf.text_date
+text_date = Extension
+
+# cat=basic; type=string; label=LLL:EXT:oneclicklogin/locallang_db.xml:ext_conf.text_header
+text_header = 1 Click Login

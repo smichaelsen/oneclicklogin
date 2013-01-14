@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'oneclicklogin'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="be_users.tx_oneclicklogin_enable">Enable 1-Click-Login via OpenID</label>
+			<label index="ext_conf.use_devIPmask">Use $TYPO3_CONF_VARS[SYS][devIPmask]:To hide oneclicklogin for the public</label>
+			<label index="ext_conf.text_date">Headline (1st part):With these two options you can design the headline of the oneclicklogin. This one will be before the colon (:).</label>
+			<label index="ext_conf.text_header">Headline (2nd part):With these two options you can design the headline of the oneclicklogin. This one will be after the colon (:).</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="be_users.tx_oneclicklogin_enable">1-Click-Login mit OpenID aktivieren</label>
+			<label index="ext_conf.use_devIPmask">$TYPO3_CONF_VARS[SYS][devIPmask]:Verhindert, dass jeder oneclicklogin sehen kann</label>
+			<label index="ext_conf.text_date">Überschrift (1. Teil):Mit diesen beiden Optionen kannst du die Überschrift von oneclicklogin zusammensetzen. Diese erscheint vor dem Doppelpunkt (:).</label>
+			<label index="ext_conf.text_header">Überschrift (2. Teil):Mit diesen beiden Optionen kannst du die Überschrift von oneclicklogin zusammensetzen. Diese erscheint nach dem Doppelpunkt (:).</label>
+		</languageKey>
+	</data>
+</T3locallang>
